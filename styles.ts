@@ -1,0 +1,31 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: '#fff' },
+  header: { padding: 12, borderBottomWidth: 1, borderColor: '#eee', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
+  therapistInfo: { flexDirection: 'row', alignItems: 'center' },
+  title: { fontSize: 18, fontWeight: '700' },
+  subtitle: { fontSize: 12, color: '#666' },
+  userControls: { flexDirection: 'row', alignItems: 'center' },
+  userInfo: { flexDirection: 'row', alignItems: 'center' },
+  logoutButton: { marginLeft: 8 },
+  backButton: { padding: 8 },
+  emergencyButton: { flexDirection: 'row', alignItems: 'center', padding: 8 },
+  messagesContainer: { padding: 12, paddingBottom: 20 },
+  bubbleContainer: { marginVertical: 6, padding: 10, borderRadius: 12, maxWidth: '80%' },
+  userBubble: { alignSelf: 'flex-end', backgroundColor: '#0078fe' },
+  botBubble: { alignSelf: 'flex-start', backgroundColor: '#eee' },
+  userText: { color: '#fff' },
+  botText: { color: '#000' },
+  timeText: { fontSize: 10, color: '#666', marginTop: 4 },
+  inputArea: { flexDirection: 'row', padding: 8, borderTopWidth: 1, borderColor: '#eee', alignItems: 'center' },
+  input: { flex: 1, padding: 10, borderRadius: 8, borderWidth: 1, borderColor: '#ddd', marginRight: 8 },
+  sendButton: { backgroundColor: '#0078fe', padding: 10, borderRadius: 8 },
+  quickSuggestions: { padding: 8, borderTopWidth: 1, borderColor: '#f5f5f5' },
+  suggestionButton: { padding: 8, borderRadius: 6, borderWidth: 1, borderColor: '#ddd', marginRight: 8 },
+  modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'center', alignItems: 'center' },
+  modalContent: { backgroundColor: '#fff', padding: 20, borderRadius: 12, width: '90%' },
+  modalTitle: { fontSize: 18, fontWeight: '700', marginBottom: 8 },
+  helplineButton: { padding: 12, borderRadius: 8, backgroundColor: '#eee', marginBottom: 8, alignItems: 'center' },
+  closeButton: { padding: 12, borderRadius: 8, alignItems: 'center' }
+});
